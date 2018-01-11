@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<addons><addon id="plugin.audio.quranonline" name="Al-Quran Online" provider-name="asrulhadi" version="0.0.5">
+  <requires>
+    <import addon="xbmc.python" version="2.24.0" />
+    <import addon="script.module.kodiswift" version="0.0.1" />
+    <import addon="script.module.beautifulsoup4" version="4.3.2" />
+    <import addon="script.module.requests" version="2.12.4" />
+  </requires>
+  <extension library="addon.py" point="xbmc.python.pluginsource">
+    <provides>audio</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <license>GNU General Public License, v2</license>
+    <platform>all</platform>
+    <language>en</language>
+    <summary lang="en">Audio of Holy Quran Online</summary>
+    <description lang="en">Listen to Holy Quran online from various resources</description>
+    <disclaimer lang="en">All audio files are hosted on various server.</disclaimer>
+    <source>https://github.com/asrulhadi/kodi</source>
+  </extension>
+</addon><addon id="repository.islamic" name="Islamic Repository" provider-name="asrulhadi" version="0.0.1">
+    <extension name="Islamic Repository" point="xbmc.addon.repository">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/asrulhadi/kodi/master/repo/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/asrulhadi/kodi/master/repo/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/asrulhadi/kodi/master/repo/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Home of The Community Portal</summary>
+        <description>My own repo for islamic contents</description>
+        <platform>all</platform>
+    </extension>
+</addon></addons>
