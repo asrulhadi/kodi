@@ -3,7 +3,7 @@
     <extension point="xbmc.addon.repository" name="Islamic Repository">
         <dir>
             <info compressed="false">https://raw.githubusercontent.com/asrulhadi/kodi/master/repo/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/asrulhadi/kodi/master/repo/addons.xml.md5</checksum>
+            <checksum>https://raw.githubusercontent.com/asrulhadi/kodi/master/repo/add.md5</checksum>
             <datadir zip="true">https://raw.githubusercontent.com/asrulhadi/kodi/master/repo/</datadir>
         </dir>
     </extension>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.audio.radiomalaysiaonline" name="Radio Malaysia Online" version="0.0.1" provider-name="asrulhadi">
+  <requires>
+    <import addon="xbmc.python" version="2.24.0" />
+    <import addon="script.module.kodiswift" version="0.0.1" />
+    <import addon="script.module.beautifulsoup4" version="4.3.2" />
+    <import addon="script.module.requests" version="2.12.4" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="addon.py">
+    <provides>audio</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <license>GNU General Public License, v2</license>
+    <platform>all</platform>
+    <language>en</language>
+    <summary lang="en">Live Radio Malaysia Online</summary>
+    <description lang="en">Listen to Malaysian Radio online from various resources</description>
+    <disclaimer lang="en">All audio files are hosted on various server.</disclaimer>
+    <source>https://github.com/asrulhadi/kodi</source>
+  </extension>
+</addon>
